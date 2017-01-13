@@ -1,0 +1,21 @@
+:global
+	body
+		padding:0;margin:0
+	a
+		text-decoration: none;color:inherit
+.wrapper
+	position:relative;background:#434a5b
+	.content
+		margin-left:200px;background:#f2f2f2;min-height:800px
+	aside
+		position:absolute;width:200px
+nav
+	color:rgba(255,255,255,0.7)
+	.item
+		display:block;line-height:50px;position:relative;border-bottom:1px solid rgba(255,255,255,0.1)
+		svg
+			color:inherit !important;margin:0 15px 0 20px;vertical-align: sub
+		&.active
+			background:#2a2e39;color:#fff
+			&:after
+				content:' ';border:8px solid transparent;border-right-color:#f2f2f2;display:block;position:absolute;right:0px;top:17px
